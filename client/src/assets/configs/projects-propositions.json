@@ -1,0 +1,10 @@
+[
+  {
+    "name": "Project title 1",
+    "difficulty": "BASIC",
+    "technologies": ["javascript", "rust"],
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim nunc, bibendum fringilla leo ac, efficitur egestas enim. In hac habitasse platea dictumst.",
+    "readmeUrl": "readme.me.url",
+    "pictureUrl": "https://github.com/GDSCUTM"
+  }
+]

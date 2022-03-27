@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Project title",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "sourceCode": "source.code.url",
+    "technologies": ["javascript", "rust"],
+    "demo": {
+      "url": "some.project.url",
+      "picture": "https://cdn.qwiklabs.com/Gx5QWak6EsvW0PQURmiMyf10sLtl2AT%2BUSrD04WuCzY%3D"
+    },
+    "creators": [
+      {"name": "name or alias", "avatar": "./assets/images/default-avatar.webp", "url": "someUrl"},
+      {"name": "name or alias", "avatar": "./assets/images/default-avatar.webp", "url": "someUrl"},
+      {"name": "name or alias", "avatar": "./assets/images/default-avatar.webp", "url": "someUrl"}
+    ]
+  }
+]

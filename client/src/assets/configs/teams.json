@@ -1,0 +1,72 @@
+[
+  {
+    "name": "Tech Team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim nunc, bibendum fringilla leo ac.",
+    "lookingFor": "description of skills of person which want to join team",
+    "technologies": ["JavaScript", "Flutter", "Artificial intelligence"],
+    "contact": {
+      "discord": "discord.chanel.url",
+      "telegram": "telegram.team.url"
+    },
+    "members": [
+      {"name": "Zeyad Naguib", "avatarUrl": "./assets/images/Zeyad Naguib.jpg"},
+      {"name": "Osama Abdelhameed", "avatarUrl": "./assets/images/Osama Abdelhameed.jpg"},
+      {"name": "UMESH A/L DEVADAS", "avatarUrl": "./assets/images/UMESH.jpg"},
+      {"name": "Lim Sin Jie", "avatarUrl": "./assets/images/Sin Jie.jpg"},
+      {"name": "AZHAN HANIFF", "avatarUrl": "./assets/images/Azhan Haniff.jpeg"},
+      {"name": "LAI FOO ZHENG", "avatarUrl": "./assets/images/default-avatar.webp"},
+      {"name": "Mooi Kai Zhe", "avatarUrl": "./assets/images/kaizhe.jpg"}
+    ]
+  },
+  {
+    "name": "Tech Talk Team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim nunc, bibendum fringilla leo ac.",
+    "lookingFor": "description of skills of person which want to join team",
+    "technologies": ["Linkedin", "Tech Talks"],
+    "contact": {
+      "discord": "discord.chanel.url",
+      "telegram": "telegram.team.url"
+    },
+    "members": [
+      {"name": "Muhammad Aniq Aqil", "avatarUrl": "./assets/images/Muhammad Aniq Aqil .JPG"},
+      {"name": "LEE MING QI", "avatarUrl": "./assets/images/Lee Ming Qi.jpg"},
+      {"name": "Wong Li Jie", "avatarUrl": "./assets/images/Wong Li Jie.jpeg"},
+      {"name": "NG QIAN HUI", "avatarUrl": "./assets/images/Ng Qian Hui.jpeg"},
+      {"name": "Phuah Kai Sheng", "avatarUrl": "./assets/images/Phuah Kai Sheng.jpg"},
+      {"name": "Lai Ting Ying", "avatarUrl": "./assets/images/Lai Ting Ying.jpg"}
+    ]
+  },
+  {
+    "name": "Creative Marketing Team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim nunc, bibendum fringilla leo ac.",
+    "lookingFor": "description of skills of person which want to join team",
+    "technologies": ["Instagram", "Canva", "Marketing"],
+    "contact": {
+      "discord": "discord.chanel.url",
+      "telegram": "telegram.team.url"
+    },
+    "members": [
+      {"name": "Tajwar Haque", "avatarUrl": "./assets/images/Tajwar Haque.jpg"},
+      {"name": "Nashrah Tasnim", "avatarUrl": "./assets/images/Nashrah Tasnim.jpg"},
+      {"name": "Samin Enam", "avatarUrl": "./assets/images/Samin Enam.png"}
+    ]
+  },
+  {
+    "name": "Community Team",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam enim nunc, bibendum fringilla leo ac.",
+    "lookingFor": "description of skills of person which want to join team",
+    "technologies": ["Interactivity", "Open-Mindedness", "Fun Events"],
+    "contact": {
+      "discord": "discord.chanel.url",
+      "telegram": "telegram.team.url"
+    },
+    "members": [
+      {"name": "SAMUEL LOW YU HANG", "avatarUrl": "./assets/images/samuel.jpg", "url": "/"},
+      {"name": "Nurul 'Afifah Mohamad", "avatarUrl": "./assets/images/nurul_afifah.jpg", "url": "/"},
+      {"name": "SHANMUGAPRIYAN", "avatarUrl": "./assets/images/default-avatar.webp", "url": "/"},
+      {"name": "Azam Raduan", "avatarUrl": "./assets/images/default-avatar.webp", "url": "/"},
+      {"name": "JENNIFER LIEW CAI RONG", "avatarUrl": "./assets/images/Jennifer Liew Cai Rong.jpg", "url": "/"},
+      {"name": "AFIQ FAHMI", "avatarUrl": "./assets/images/Afiq Fahmi.jpeg", "url": "/"}
+    ]
+  }
+]
