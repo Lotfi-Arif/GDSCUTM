@@ -1,24 +1,32 @@
 import Landing from "./pages/Landing";
-import Events from "./pages/Events";
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Nav from "./components/Nav"
 import Background from "./components/Background"
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-} from "react-router-dom";
+import { Register, Error, ProtectedRoute } from './pages'
+import { Profile } from './pages/dashboard' 
 
 function App() {
-  return (
-      
-    <div>
-      <Background/>
-        <Nav/>
-        <Landing />
-        </div>
-      
-  );
-}
+    return (
+
+      <div>
+        <Nav />
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path='/'
+              element={
+                <Landing />
+              }
+            >
+              <Route path='profile' element={<Profile />} />
+            </Route>
+            <Route path='/register' element={<Register />} />
+            <Route path='*' element={<Error />} />
+          </Routes>
+        </BrowserRouter>
+      </div>
+
+    );
+  }
 
 export default App;
