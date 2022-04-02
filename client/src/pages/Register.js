@@ -46,13 +46,14 @@ const Register = () => {
     }
   }
 
-  useEffect(() => {
-    if (user) {
-      setTimeout(() => {
-        navigate('/')
-      }, 3000)
-    }
-  }, [user, navigate])
+// commented out until landing pages are done
+  // useEffect(() => {
+  //   if (user) {
+  //     setTimeout(() => {
+  //       navigate('/')
+  //     }, 300)
+  //   }
+  // }, [user, navigate])
 
   return (
     <div className='flex items-center justify-center min-h-screen bg-gray-100 '>
