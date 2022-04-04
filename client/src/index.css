@@ -10,3 +10,8 @@
 .h1 {
     font-size:72px;
 }
+
+.dropdownBottomButtonUpcoming{
+    @apply  rounded-md shadow-md
+    transition-all duration-100 scale-0
+}

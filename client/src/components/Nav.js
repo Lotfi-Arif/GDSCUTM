@@ -6,13 +6,15 @@ import Teams from "../pages/Teams";
 import Info from "../pages/Info";
 import Projects from "../pages/Projects";
 import { useState } from "react";
+import {useTransition, animated} from 'react-spring'
+
 
 const Nav = () => {
   const [events, setEvents] = useState(false);
   const [info, setInfo] = useState(false);
   const [teams, setTeams] = useState(false);
   const [projects, setProjects] = useState(false);
- 
+
   return (
     <div className="py-7">
       <div>
@@ -38,7 +40,7 @@ const Nav = () => {
             <ul className="flex justify-end space-x-5 mt-8 px-8">
               <li>
                 <button
-                  className=" focus:bg-red-400 hover:bg-red-400"
+                  className="hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py- text-center mr-2 mb-2 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   onClick={() =>
                     setEvents(!events)
                   }
@@ -49,7 +51,7 @@ const Nav = () => {
 
               <li>
                 <button
-                  className=" focus:bg-red-400 hover:bg-red-400"
+                  className=" hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-1 text-center mr-2 mb-2 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   onClick={() => setInfo(!info)}
                 >
                   Info
@@ -57,7 +59,7 @@ const Nav = () => {
               </li>
               <li>
                 <button
-                  className=" focus:bg-red-400 hover:bg-red-400"
+                  className=" hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-1 text-center mr-2 mb-2 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   onClick={() => setTeams(!teams)}
                 >
                   Teams
@@ -65,7 +67,7 @@ const Nav = () => {
               </li>
               <li>
                 <button
-                  className=" focus:bg-red-400 hover:bg-red-400"
+                  className=" hover:bg-blue-800 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-1 text-center mr-2 mb-2 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
                   onClick={() =>
                     setProjects(!projects)
                   }

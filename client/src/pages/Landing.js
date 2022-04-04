@@ -2,21 +2,17 @@ import logo from "../assets/icons/gdsc_logo.svg";
 import {
   useSpring,
   animated,
+  useChain,
+  useTrail,
 } from "react-spring";
 const Landing = () => {
   const styles = useSpring({
-    loop: { reverse: true },
     from: { x: -300 },
     to: { x: 300 },
-    config:{ duration:3000}
-  })
-  const google = useSpring({
+    config:{ duration:3000},
     loop: { reverse: true },
-    from: { color: 'red'},
-    to: { color:'blue' },
-    //config:{ duration:5000}
-    delay: 5000
   })
+  
   return (
     <main>
       <div className="container page absolute z-0 top-1/4 bottom-0 left-1/2 py-8 max-h-full max-w-6xl transform -translate-x-1/2 overflow-auto m-auto group ">
@@ -30,9 +26,9 @@ const Landing = () => {
             />
           </animated.div>
           <h1 class="text-6xl font-bold">
-            <animated.span style={google}>
+            <span className="text-blue-600">
               Google
-            </animated.span>{" "}
+            </span>{" "}
             <span className="text-red-600">
               Developers
             </span>{" "}
@@ -66,11 +62,10 @@ const Landing = () => {
             Lorem ipsum dolor sit amet consectetur
             adipisicing elit.
           </p>
-
-          <div className="invisible info grid justify-items-center py-10 group-hover:visible">
+          <div className="transition-all duration-300 opacity-20 info grid justify-items-center py-10 group-hover:opacity-100">
             <button
               type="button"
-              class="text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 scale-150"
+              class=" transition-all ease-in duration-200 text-white bg-blue-700 hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-2.5 text-center mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800 scale-150"
             >
               Join us Today
             </button>
